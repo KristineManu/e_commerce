@@ -1,0 +1,87 @@
+.img {
+    background-image: url(./img/product/m3.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 70px;
+}
+
+.form_creat {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 500px;
+    border: none;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #ede0bf81;
+    border-radius: 20px;
+}
+
+.form_creat h1 {
+    color: grey;
+    font-size: 2rem;
+    margin: 30px;
+}
+
+.box_creat {
+    padding: 12px;
+    width: 65%;
+    border: none;
+    outline: none;
+    border-radius: 14px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1rem;
+}
+
+.submit_creat {
+    padding: 10px 20px;
+    margin-top: 10px;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    outline: none;
+    color: white;
+    opacity: 0.7;
+    border-radius: 14px;
+    font-size: 1rem;
+}
+
+.form_creat .login {
+
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    outline: none;
+    color: white;
+    opacity: 0.7;
+    border-radius: 14px;
+    font-size: 1.31rem;
+}
+
+.login:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.4;
+
+}

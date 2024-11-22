@@ -1,0 +1,91 @@
+
+.login__form-container{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap; /* Permet aux éléments de se réorganiser sur plusieurs lignes si nécessaire */
+  justify-content: space-between;
+background-image: url(./img/product/m3.avif);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+filter: blur(0.4);
+
+
+}
+.login__form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 350px;
+    width: 500px;
+    border: none;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+}
+
+.login__form  h1{
+    color: white;
+    font-size: 2rem;
+    margin: 20px;
+}
+.login__text {
+    
+    font-size: 1.1rem;
+   
+}
+
+
+.login__input{
+    padding: 12px;
+    width: 65%;
+    border: none;
+    outline: none;
+    border-radius: 14px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1rem;
+}
+.login__submit{
+
+    padding: 10px 20px;
+   
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    outline: none;
+    color: white;
+    opacity: 0.7;
+    border-radius: 14px;
+    font-size: 1rem;
+}
+.login__submit:hover{
+    cursor: pointer;
+    background-color:rgba(255, 255, 255, 0.1) ;
+}
+
+
+.login__form a{
+   
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+::placeholder{
+color: white;
+opacity: 0.4;
+
+}
+.login_icon{
+    display: flex;
+    gap: 10px;
+}
+@media screen and (max-width:1300px) {
+    .login__form-container{
+        
+        grid-column: 80px;
+    }
+}
